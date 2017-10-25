@@ -8,7 +8,7 @@
 body {
 	font-family: 'Overpass Mono', monospace;
 	color: #edecf2;
-	background: #37373e;
+	background: white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -253,7 +253,7 @@ a:focus {
 	width: 100%;
 	margin: 1em 0;
 	text-align: left;
-	color: #fff;
+	color: #000;
 }
 
 .column {
@@ -273,7 +273,7 @@ a:focus {
 .column__text {
 	font-size: 0.85em;
 	display: block;
-	color: #fff;
+	color: #b0adad;
 }
 
 .column--left .column__text {
