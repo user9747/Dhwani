@@ -520,3 +520,9 @@ a:focus {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.WelcomeText img{
+	width: 500px;
+	display: block;
+	margin:auto;
+}
