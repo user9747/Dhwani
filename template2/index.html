@@ -16,8 +16,16 @@
 	<body>
 		
 		<main>
+			<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="#">About</a>
+  			<a href="#">Services</a>
+  			<a href="#">Clients</a>
+  			<a href="#">Contact</a>
+			</div>
+			<span onclick="openNav()">open</span>
 			<div class="message-mobile">Best viewed on desktop.</div>
-			
+			<div id="main">
 			<section class="content">
 				<h2 class="content__title">_001</h2>
 				<div class="grid grid--effect-vega">
@@ -190,6 +198,7 @@
 					<h3 class="media-item__title">Line Menu Styles</h3>
 				</a>
 			</section>
+		</div>
 		</main>
 		<script src="js/anime.min.js"></script>
 		<script src="js/main.js"></script>
