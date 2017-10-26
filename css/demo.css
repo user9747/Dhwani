@@ -513,6 +513,7 @@ a:focus {
 #main {
     transition: margin-left .5s;
     padding: 20px;
+    padding-top: 0px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -528,9 +529,11 @@ a:focus {
 }
 
 .SponsHead h1 {
-  font-size: 72px;
+  letter-spacing: 20px;
+  font-size: 35px;
+  margin-top: 0px;
   text-align: center;
-  
+  font-family: '33535gillsansmt',sans-serif;
   background:-webkit-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
